@@ -1,0 +1,64 @@
+{{!-- <h2>{{title}}</h2>
+<form>
+  <div>
+    <input type="text" placeholder="enter name" />
+  </div>
+  <div>
+    <button>Submit</button>
+  </div>
+</form> --}}
+<section id="contactform">
+  <article>
+    <h1>Contact us</h1>
+    <form method="post" action="/contact">
+      <div>
+        <label for="firstname">Firstname</label>
+        <input
+          type="text"
+          name="firstname"
+          id="firstname"
+          placeholder="enter firstname"
+        />
+      </div>
+
+      <div>
+        <label for="lastname">Lastname</label>
+        <input
+          type="text"
+          name="lastname"
+          id="lastname"
+          placeholder="enter lastname"
+        />
+      </div>
+
+      <div>
+        <label for="email">Email</label>
+        <input
+          type="text"
+          name="email"
+          id="email"
+          placeholder="enter your email"
+        />
+      </div>
+
+      <div>
+        <label for="phone">Phone Number</label>
+        <input
+          type="text"
+          name="phone"
+          id="phone"
+          placeholder="enter your ph no."
+        />
+      </div>
+
+      <div>
+        <label for="description">Description</label>
+        <input type="textArea" name="description" id="description" />
+      </div>
+
+      <div>
+        <button>Submit</button>
+      </div>
+    </form>
+  </article>
+</section>
